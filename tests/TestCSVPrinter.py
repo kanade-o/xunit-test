@@ -22,9 +22,6 @@ class TestCSVPrinter(unittest.TestCase):
         with self.assertRaises(RuntimeError):
             CSVPrinter("sample2.csv")
 
-    def test_is_exist_file(self):
-        with self.assertRaises(RuntimeError):
-            CSVPrinter("sample2.csv")
 
 
 
