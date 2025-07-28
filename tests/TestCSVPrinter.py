@@ -4,9 +4,6 @@ import unittest
 from xunit_test.CSVPrinter import CSVPrinter
 
 class TestCSVPrinter(unittest.TestCase):
-    def __init__(self):
-        self.message = 'Hello'
-        return self
 
     def test_read(self):
         printer = CSVPrinter("sample.csv")
